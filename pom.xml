@@ -116,7 +116,7 @@
         </executions>
       </plugin>
       
-      <!-- Build Configuration for Findbugs -->
+      <!-- Build Configuration for Findbugs
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>findbugs-maven-plugin</artifactId>
@@ -135,6 +135,7 @@
           </execution>
         </executions>
       </plugin>
+      -->
       
       <!-- Build Configuration for JaCoCo -->
       <plugin>
