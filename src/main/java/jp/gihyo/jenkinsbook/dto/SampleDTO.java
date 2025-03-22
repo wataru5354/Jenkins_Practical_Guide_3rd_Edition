@@ -6,15 +6,14 @@ import java.io.Serializable;
  * DTO class for SampleServlet.
  */
 public class SampleDTO implements Serializable {
+    
     /**
      * First name of the user.
      */
-    @SuppressWarnings("hiding")
     private String firstName;
     /**
      * Last name of the user.
      */
-    @SuppressWarnings("hiding")
     private String lastName;
     /**
      * Greeting message.
