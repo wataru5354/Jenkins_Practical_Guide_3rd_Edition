@@ -60,8 +60,8 @@
     <!-- Checkstyle Properties -->
     <maven-checkstyle.version>2.17</maven-checkstyle.version>
     
-    <!-- Stopbugs Properties -->
-    <stopbugs-maven.version>4.9.2</stopbugs-maven.version>
+    <!-- Findbugs Properties -->
+    <findbugs-maven.version>3.0.1</findbugs-maven.version>
     
     <!-- JaCoCo Properties -->
     <jacoco-maven.version>0.7.9</jacoco-maven.version>
@@ -116,11 +116,11 @@
         </executions>
       </plugin>
       
-      <!-- Build Configuration for Stopbugs -->
+      <!-- Build Configuration for Findbugs -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
-        <artifactId>stopbugs-maven-plugin</artifactId>
-        <version>${stopbugs-maven.version}</version>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <version>${findbugs-maven.version}</version>
         <executions>
           <execution>
             <id>process-classes</id>
