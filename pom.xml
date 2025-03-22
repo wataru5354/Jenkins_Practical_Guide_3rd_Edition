@@ -61,7 +61,7 @@
     <maven-checkstyle.version>2.17</maven-checkstyle.version>
     
     <!-- Stopbugs Properties -->
-    <stopbugs-maven.version>4.9.3</stopbugs-maven.version>
+    <stopbugs-maven.version>4.9.2</stopbugs-maven.version>
     
     <!-- JaCoCo Properties -->
     <jacoco-maven.version>0.7.9</jacoco-maven.version>
